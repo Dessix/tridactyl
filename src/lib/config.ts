@@ -189,8 +189,8 @@ export class default_config {
         "[[": "followpage prev",
         "[c": "urlincrement -1",
         "]c": "urlincrement 1",
-        "<C-x>": "urlincrement -1",
-        "<C-a>": "urlincrement 1",
+        // "<C-x>": "urlincrement -1",
+        // "<C-a>": "urlincrement 1",
         T: "current_url tabopen",
         yy: "clipboard yank",
         ys: "clipboard yankshort",
@@ -199,8 +199,8 @@ export class default_config {
         yt: "clipboard yanktitle",
         gh: "home",
         gH: "home true",
-        p: "clipboard open",
-        P: "clipboard tabopen",
+        // p: "clipboard open",
+        // P: "clipboard tabopen",
         j: "scrollline 10",
         "<C-e>": "scrollline 10",
         k: "scrollline -10",
@@ -211,7 +211,7 @@ export class default_config {
         gg: "scrollto 0",
         "<C-u>": "scrollpage -0.5",
         "<C-d>": "scrollpage 0.5",
-        "<C-f>": "scrollpage 1",
+        // "<C-f>": "scrollpage 1",
         "<C-b>": "scrollpage -1",
         "<C-v>": "nmode ignore 1 mode normal", // Is this a terrible idea? Pentadactyl did it http://bug.5digits.org/help/pentadactyl/browsing.xhtml#send-key
         $: "scrollto 100 x",
@@ -221,7 +221,7 @@ export class default_config {
         L: "forward",
         "<C-o>": "jumpprev",
         "<C-i>": "jumpnext",
-        d: "tabclose",
+        // d: "tabclose",
         D: "composite tabprev; tabclose #",
         gx0: "tabclosealltoleft",
         gx$: "tabclosealltoright",
@@ -318,8 +318,8 @@ export class default_config {
         "<S-Escape>": "mode ignore",
         "<Escape>": "composite mode normal ; hidecmdline",
         "<C-[>": "composite mode normal ; hidecmdline",
-        a: "current_url bmark",
-        A: "bmark",
+        // a: "current_url bmark",
+        // A: "bmark",
         zi: "zoom 0.1 true",
         zo: "zoom -0.1 true",
         zm: "zoom 0.5 true",
@@ -734,7 +734,7 @@ export class default_config {
      *
      * To get FF default behaviour, use "urlbar".
      */
-    newtabfocus: "page" | "urlbar" = "page"
+    newtabfocus: "page" | "urlbar" = "urlbar"
 
     /**
      * Whether to use Tridactyl's (bad) smooth scrolling.

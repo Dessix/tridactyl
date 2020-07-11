@@ -42,7 +42,7 @@ window.addEventListener("load", _ => {
     spoilerbutton.addEventListener("click", readChangelog)
     config.getAsync("newtabfocus").then(f => {
         if (f === "page") {
-            window.focus()
+            // window.focus()
         }
     })
 })

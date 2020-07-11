@@ -208,7 +208,7 @@ if (
                 document.body.style.height = "100%"
                 document.body.style.opacity = "1"
                 document.body.style.overflow = "auto"
-                document.title = "Tridactyl Top Tips & New Tab Page"
+                document.title = "Tridactyl Top Terps & New Tab Page"
             }
         }
     })
